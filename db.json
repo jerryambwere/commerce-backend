@@ -229,7 +229,7 @@
       "inStock": true,
       "availableStock": 110,
       "discount": 0,
-      "imageUrl": "https://images.pexels.com/photos/161948/shampoo-bottle-foam-hair-shampoo-161948.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/3735627/pexels-photo-3735627.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 22,
@@ -240,7 +240,7 @@
       "inStock": true,
       "availableStock": 140,
       "discount": 0,
-      "imageUrl": "https://images.pexels.com/photos/5863394/pexels-photo-5863394.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/5612670/pexels-photo-5612670.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 23,
@@ -251,7 +251,7 @@
       "inStock": true,
       "availableStock": 200,
       "discount": 5,
-      "imageUrl": "https://images.pexels.com/photos/592802/pexels-photo-592802.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/302899/pexels-photo-302899.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 24,
@@ -262,7 +262,7 @@
       "inStock": true,
       "availableStock": 190,
       "discount": 0,
-      "imageUrl": "https://images.pexels.com/photos/11787684/pexels-photo-11787684.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/1435901/pexels-photo-1435901.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 25,
@@ -273,7 +273,7 @@
       "inStock": true,
       "availableStock": 100,
       "discount": 5,
-      "imageUrl": "https://images.pexels.com/photos/5803943/pexels-photo-5803943.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/7262993/pexels-photo-7262993.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 26,
@@ -284,7 +284,7 @@
       "inStock": true,
       "availableStock": 90,
       "discount": 0,
-      "imageUrl": "https://images.pexels.com/photos/11704035/pexels-photo-11704035.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/2352276/pexels-photo-2352276.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 27,
@@ -295,7 +295,7 @@
       "inStock": true,
       "availableStock": 80,
       "discount": 5,
-      "imageUrl": "https://images.pexels.com/photos/6290787/pexels-photo-6290787.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/230785/pexels-photo-230785.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 28,
@@ -306,7 +306,7 @@
       "inStock": true,
       "availableStock": 150,
       "discount": 0,
-      "imageUrl": "https://images.pexels.com/photos/8964054/pexels-photo-8964054.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/1022385/pexels-photo-1022385.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 29,
@@ -317,7 +317,7 @@
       "inStock": true,
       "availableStock": 300,
       "discount": 0,
-      "imageUrl": "https://images.pexels.com/photos/461245/pexels-photo-461245.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/2523659/pexels-photo-2523659.jpeg?auto=compress&cs=tinysrgb&w=300"
     },
     {
       "id": 30,
@@ -328,7 +328,7 @@
       "inStock": true,
       "availableStock": 180,
       "discount": 5,
-      "imageUrl": "https://images.pexels.com/photos/42049/pexels-photo-42049.jpeg?auto=compress&cs=tinysrgb&w=300"
+      "imageUrl": "https://images.pexels.com/photos/1495534/pexels-photo-1495534.jpeg?auto=compress&cs=tinysrgb&w=300"
     }
   ]
 }
