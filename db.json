@@ -1,9 +1,334 @@
 {
-  "posts": [
-    { "id": 1, "title": "json-server", "author": "typicode" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 }
-  ],
-  "profile": { "name": "typicode" }
+  "Commerce": [
+    {
+      "id": 1,
+      "name": "Organic Apples",
+      "category": "Fruits & Vegetables",
+      "brand": "Fresh Farm",
+      "price": 4.99,
+      "inStock": true,
+      "availableStock": 150,
+      "discount": 5,
+      "imageUrl": "https://images.pexels.com/photos/102104/pexels-photo-102104.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 2,
+      "name": "Whole Wheat Bread",
+      "category": "Bakery",
+      "brand": "Healthy Loaf",
+      "price": 2.49,
+      "inStock": true,
+      "availableStock": 75,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/461060/pexels-photo-461060.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 3,
+      "name": "Almond Milk",
+      "category": "Dairy & Alternatives",
+      "brand": "Silk",
+      "price": 3.99,
+      "inStock": true,
+      "availableStock": 60,
+      "discount": 10,
+      "imageUrl": "https://images.pexels.com/photos/1325467/pexels-photo-1325467.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 4,
+      "name": "Free Range Eggs",
+      "category": "Dairy & Alternatives",
+      "brand": "Nature's Best",
+      "price": 5.99,
+      "inStock": false,
+      "availableStock": 0,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/162712/egg-white-food-protein-162712.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 5,
+      "name": "Dish Soap",
+      "category": "Household",
+      "brand": "Dawn",
+      "price": 2.99,
+      "inStock": true,
+      "availableStock": 200,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/5907896/pexels-photo-5907896.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 6,
+      "name": "Paper Towels",
+      "category": "Household",
+      "brand": "Bounty",
+      "price": 7.49,
+      "inStock": true,
+      "availableStock": 120,
+      "discount": 5,
+      "imageUrl": "https://images.pexels.com/photos/11417937/pexels-photo-11417937.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 7,
+      "name": "Spaghetti Pasta",
+      "category": "Pantry",
+      "brand": "Barilla",
+      "price": 1.29,
+      "inStock": true,
+      "availableStock": 300,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/3735149/pexels-photo-3735149.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 8,
+      "name": "Frozen Pizza",
+      "category": "Frozen Foods",
+      "brand": "DiGiorno",
+      "price": 6.49,
+      "inStock": true,
+      "availableStock": 50,
+      "discount": 10,
+      "imageUrl": "https://images.pexels.com/photos/2292081/pexels-photo-2292081.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 9,
+      "name": "Yogurt",
+      "category": "Dairy & Alternatives",
+      "brand": "Chobani",
+      "price": 1.29,
+      "inStock": true,
+      "availableStock": 200,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/3735627/pexels-photo-3735627.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 10,
+      "name": "Cheese Slices",
+      "category": "Dairy & Alternatives",
+      "brand": "Kraft",
+      "price": 2.99,
+      "inStock": true,
+      "availableStock": 100,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/7428102/pexels-photo-7428102.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 11,
+      "name": "Peanut Butter",
+      "category": "Pantry",
+      "brand": "Jif",
+      "price": 3.49,
+      "inStock": true,
+      "availableStock": 140,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/5217889/pexels-photo-5217889.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 12,
+      "name": "Toilet Paper",
+      "category": "Household",
+      "brand": "Charmin",
+      "price": 8.99,
+      "inStock": false,
+      "availableStock": 0,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/5769384/pexels-photo-5769384.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 13,
+      "name": "Orange Juice",
+      "category": "Beverages",
+      "brand": "Tropicana",
+      "price": 4.49,
+      "inStock": true,
+      "availableStock": 180,
+      "discount": 5,
+      "imageUrl": "https://images.pexels.com/photos/158053/fresh-orange-juice-squeezed-refreshing-citrus-158053.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 14,
+      "name": "Chicken Breast",
+      "category": "Meat & Poultry",
+      "brand": "Perdue",
+      "price": 6.99,
+      "inStock": true,
+      "availableStock": 80,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/1653877/pexels-photo-1653877.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+    },
+    {
+      "id": 15,
+      "name": "Ground Beef",
+      "category": "Meat & Poultry",
+      "brand": "Grassland",
+      "price": 5.99,
+      "inStock": true,
+      "availableStock": 90,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/216951/pexels-photo-216951.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 16,
+      "name": "Frozen Vegetables",
+      "category": "Frozen Foods",
+      "brand": "Birds Eye",
+      "price": 2.99,
+      "inStock": true,
+      "availableStock": 250,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/3065512/pexels-photo-3065512.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 17,
+      "name": "Potato Chips",
+      "category": "Snacks",
+      "brand": "Lay's",
+      "price": 2.99,
+      "inStock": true,
+      "availableStock": 300,
+      "discount": 5,
+      "imageUrl": "https://images.pexels.com/photos/568805/pexels-photo-568805.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 18,
+      "name": "Granola Bars",
+      "category": "Snacks",
+      "brand": "Nature Valley",
+      "price": 3.49,
+      "inStock": true,
+      "availableStock": 170,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/7047240/pexels-photo-7047240.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 19,
+      "name": "Oatmeal",
+      "category": "Pantry",
+      "brand": "Quaker",
+      "price": 2.99,
+      "inStock": true,
+      "availableStock": 160,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/236813/pexels-photo-236813.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 20,
+      "name": "Ice Cream",
+      "category": "Frozen Foods",
+      "brand": "Ben & Jerry's",
+      "price": 4.99,
+      "inStock": true,
+      "availableStock": 130,
+      "discount": 10,
+      "imageUrl": "https://images.pexels.com/photos/416485/pexels-photo-416485.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 21,
+      "name": "Shampoo",
+      "category": "Personal Care",
+      "brand": "Head & Shoulders",
+      "price": 6.99,
+      "inStock": true,
+      "availableStock": 110,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/161948/shampoo-bottle-foam-hair-shampoo-161948.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 22,
+      "name": "Toothpaste",
+      "category": "Personal Care",
+      "brand": "Colgate",
+      "price": 3.99,
+      "inStock": true,
+      "availableStock": 140,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/5863394/pexels-photo-5863394.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 23,
+      "name": "Coffee",
+      "category": "Beverages",
+      "brand": "Starbucks",
+      "price": 7.99,
+      "inStock": true,
+      "availableStock": 200,
+      "discount": 5,
+      "imageUrl": "https://images.pexels.com/photos/592802/pexels-photo-592802.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 24,
+      "name": "Pasta Sauce",
+      "category": "Pantry",
+      "brand": "Rao's",
+      "price": 5.99,
+      "inStock": true,
+      "availableStock": 190,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/11787684/pexels-photo-11787684.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 25,
+      "name": "Laundry Detergent",
+      "category": "Household",
+      "brand": "Tide",
+      "price": 11.99,
+      "inStock": true,
+      "availableStock": 100,
+      "discount": 5,
+      "imageUrl": "https://images.pexels.com/photos/5803943/pexels-photo-5803943.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 26,
+      "name": "Cat Food",
+      "category": "Pet Supplies",
+      "brand": "Friskies",
+      "price": 8.49,
+      "inStock": true,
+      "availableStock": 90,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/11704035/pexels-photo-11704035.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 27,
+      "name": "Dog Food",
+      "category": "Pet Supplies",
+      "brand": "Pedigree",
+      "price": 9.99,
+      "inStock": true,
+      "availableStock": 80,
+      "discount": 5,
+      "imageUrl": "https://images.pexels.com/photos/6290787/pexels-photo-6290787.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 28,
+      "name": "Olive Oil",
+      "category": "Pantry",
+      "brand": "Bertolli",
+      "price": 6.49,
+      "inStock": true,
+      "availableStock": 150,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/8964054/pexels-photo-8964054.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 29,
+      "name": "Granulated Sugar",
+      "category": "Pantry",
+      "brand": "Domino",
+      "price": 2.99,
+      "inStock": true,
+      "availableStock": 300,
+      "discount": 0,
+      "imageUrl": "https://images.pexels.com/photos/461245/pexels-photo-461245.jpeg?auto=compress&cs=tinysrgb&w=300"
+    },
+    {
+      "id": 30,
+      "name": "Cereal",
+      "category": "Pantry",
+      "brand": "Cheerios",
+      "price": 3.99,
+      "inStock": true,
+      "availableStock": 180,
+      "discount": 5,
+      "imageUrl": "https://images.pexels.com/photos/42049/pexels-photo-42049.jpeg?auto=compress&cs=tinysrgb&w=300"
+    }
+  ]
 }
